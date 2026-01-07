@@ -15,31 +15,37 @@ body{
 
 
 .welcome{
-    width: 15%;
-    color: #5b7194;
+    width: 20%;
     margin-left: 5%;
     margin-top: 20px;
-    height: 0px;
-    white-space: nowrap;
-    
+    color: #ffffffaf;
+    font-weight: 700;
+    background-image:linear-gradient(135deg, #b6bebe63 0%, #cfd9e979 100%);
+    text-shadow:0px 2px 4px rgba(0, 0, 0, 0.2); ;
+    border: 1px solid rgba(185, 185, 185, 0.473);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
 
 
     
 }
-
+.welcome-1{
+    margin-left: 10px;
+}
 
 
 .animation{
+    
     background-color: #5b7194;
-    border: 5px solid rgb(196, 196, 196);
-    width: 30%;
+    border: 10px solid rgba(255, 255, 255, 0.596);
+    width: 2%;
     border-radius: 3px;
     animation: animation-p 2s 0s alternate forwards infinite linear;
     
 }
 @keyframes animation-p{
     0%{transform: translate(0,0);}
-    100%{transform: translate(190px,0);}
+    100%{transform: translate(270px,0);}
 }
 
 
@@ -272,11 +278,9 @@ body{
 
 .circle-animation{
     width: 55%;
-    height: 160px;
-    
+    height: 10px;
     float: left;
     margin-left: 5%;
-    
     transform: translateY(-280px);
     
 }
@@ -345,19 +349,25 @@ body{
     position: fixed;
     right: 10px;
     width: 100px;
-    bottom:20px ;
+    bottom:90px ;
 }
 
 .thank-you{
     float: left;
     background-image:linear-gradient(135deg, #b6bebebe 0%, #cfd9e9 100%);
-    transform: translate(100px,-100px);
+    transform: translate(100px,-30px);
     width: 90%;
     border-radius: 20px;
     box-shadow: 5px 5px 20px rgba(201, 201, 201, 0.342);
     text-shadow:0px 2px 4px rgba(0, 0, 0, 0.2); 
-
     overflow-x: hidden;
+}
+
+
+@keyframes thankyou{
+    0%{transform: translate(-480px,0);}
+    100%{transform: translate(1700px,0);}
+    
 }
 
 .last-text{
@@ -365,6 +375,78 @@ body{
     text-shadow:0px 2px 4px rgba(0, 0, 0, 0.2); 
     animation: thankyou  6s  normal 0s infinite linear none;
 }
+
+
+.about-my-website{
+    float: left;
+    width: 50%;
+    height: 190px;
+    margin-left: 5%;
+    transform: translateY(-100px);
+    border-radius: 20px;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    line-height: 1.5;
+    background-image: linear-gradient(135deg,rgba(201, 201, 201, 0.295),rgba(212, 212, 212, 0.199));
+    backdrop-filter: blur(40px);
+    box-shadow: 5px 5px 30px rgba(128, 128, 128, 0.205);
+
+    
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+
+.about-my-website li{
+    color: #7a7a7a;
+    padding-bottom: 1px;
+}
+.about-my-website li:hover,h3:hover{
+    color: #ffffffaf;
+    font-weight: 700;
+    background-image:linear-gradient(135deg, #b6bebebe 0%, #cfd9e9 100%);
+    text-shadow:0px 2px 4px rgba(0, 0, 0, 0.2); 
+    border: 1px solid rgba(185, 185, 185, 0.473);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding-bottom: 1px;
+}
+
+.about-{
+    color: #ffffffaf;
+    font-weight: 700;
+    background-image:linear-gradient(135deg, #b6bebebe 0%, #cfd9e9 100%);
+    text-shadow:0px 2px 4px rgba(0, 0, 0, 0.2); 
+    border: 1px solid rgba(185, 185, 185, 0.473);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding-bottom: 1px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -378,10 +460,15 @@ body{
     overflow-x: hidden !important;
   }
 
+  .welcome{
+    width: 90%;
+    
+  }
+
     .section-1-div-1{
         
        width: 140px;
-       margin-top: 70px;
+       margin-top: 10px;
        font-size: x-small;
 
 }
@@ -468,14 +555,47 @@ body{
 
     
 }
+.about-my-website{
+    width: 305px;
+    height: 295px;
+    transform: translateY(-350px);
+    backdrop-filter: blur(10px);
+}
+
 }
 
 
-@keyframes thankyou{
-    0%{transform: translate(-480px,0);}
-    100%{transform: translate(1700px,0);}
-    
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media only screen and (min-width:804px) and (max-width:1600px){
