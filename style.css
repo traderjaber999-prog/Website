@@ -1,0 +1,463 @@
+body{
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color:#f0f0f0;
+    margin: 0;
+    height: 0 !important;
+    
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+}
+
+
+
+
+.welcome{
+    width: 15%;
+    color: #5b7194;
+    margin-left: 5%;
+    margin-top: 20px;
+    height: 0px;
+    white-space: nowrap;
+    
+
+
+    
+}
+
+
+
+.animation{
+    background-color: #5b7194;
+    border: 5px solid rgb(196, 196, 196);
+    width: 30%;
+    border-radius: 3px;
+    animation: animation-p 2s 0s alternate forwards infinite linear;
+    
+}
+@keyframes animation-p{
+    0%{transform: translate(0,0);}
+    100%{transform: translate(190px,0);}
+}
+
+
+
+.world-class{
+    color: #2f4d7a;
+
+}
+
+
+
+.section-1-div-1{
+    width: 40%;
+    
+    float: left;
+    margin-left: 5%;
+    margin-top: 5%;
+    
+    
+
+    
+   background-color: rgba(211, 211, 211, 0.137);
+   backdrop-filter: blur(30px);
+   border: 3px solid rgba(255, 255, 255, 0.158);
+   padding:20px;
+   border-radius: 10px;
+   box-shadow: 5px 5px 10px gray;
+    
+}
+
+
+
+.insahallah-p{
+    color: rgb(109, 106, 106);
+    line-height: 1.5;
+
+
+
+}
+.section-1-div-2-image{
+    margin-right: 20%;
+}
+
+
+
+
+
+.image-1{
+    width:400px;
+    transform: translateX(300px);
+
+   
+}
+
+
+
+
+.facebook{
+    text-decoration: none;
+    color: #ffffffaf;
+    font-weight: 700;
+    background-image:linear-gradient(135deg, #b6bebebe 0%, #cfd9e9 100%);
+    text-shadow:0px 2px 4px rgba(0, 0, 0, 0.2); ;
+    border: 1px solid rgba(185, 185, 185, 0.473);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+.facebook:hover{
+    padding: 6px;
+}
+
+
+
+.metro-1{
+    background-color: rgba(211, 211, 211, 0.315);
+    width: 24%;
+    height: 300px;
+    margin-left: 5%;
+    border-radius: 20px;
+    backdrop-filter: blur(30px);
+    box-shadow: 5px 5px 30px gray;
+
+    border-left: 10px solid ;
+    border-image:linear-gradient(45deg,rgba(73, 73, 73, 0.425),rgb(255, 255, 255));
+    border-image-slice:1;
+    float: left;
+    
+}
+
+.video{
+    border: 1px solid rgba(255, 255, 255, 0.24);
+    border-radius: 20px;
+    margin-left: 8%;
+    margin-top: 6%;
+    box-shadow: 5px 5px 5px gray;
+    
+
+}
+
+
+.div-4{
+    margin-left: 5%;
+    width:50%;
+    float: left;
+    line-height: 2;
+    height: 260px;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    background-color: rgba(211, 211, 211, 0.137);
+    border-radius: 20px;
+    box-shadow: 5px 5px 30px rgba(128, 128, 128, 0.336);
+}
+
+
+.metro-experience{
+    color: #465f85;
+    
+}
+
+.metro-5-sentence li{
+    color: #818181;
+    font-weight: 500;
+}
+
+.metro-5-sentence li:hover{
+    color: #ffffffaf;
+    font-weight: 700;
+    background-image:linear-gradient(135deg, #b6bebebe 0%, #cfd9e9 100%);
+    text-shadow:0px 2px 4px rgba(0, 0, 0, 0.2); 
+    border: 1px solid rgba(185, 185, 185, 0.473);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding-bottom: 1px;
+}
+
+
+.my-album{
+    text-align: center;
+}
+
+.album{
+    width: 25%;
+    float: left;
+    height: 400px;
+    margin-left: 5%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+
+    background-image: linear-gradient(135deg,rgba(206, 206, 206, 0.233),rgba(255, 255, 255, 0.171));
+    backdrop-filter: blur(30px);
+    box-shadow: 5px 5px 20px rgba(128, 128, 128, 0.788);
+
+}
+
+.image-for-overflow{
+    
+    width: 100%;
+}
+
+
+.abot-my-self{
+    color:#5b7194
+}
+
+
+.aboute-my-self-p{
+    color: rgba(75, 74, 74, 0.877);
+    line-height: 1.5;
+}
+
+.album-details{
+    float: left;
+    width: 50%;
+    height: 150px;
+    margin-left: 5%;
+    margin-top: 100px;
+    background-image: linear-gradient(45deg,rgba(202, 202, 202, 0.26),rgba(179, 179, 179, 0.158));
+    box-shadow: 5px 5px 20px rgba(128, 128, 128, 0.226);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+
+.insta{
+    color: #ffffffaf;
+    text-decoration: none;
+    background-image:linear-gradient(135deg, #b6bebebe 0%, #cfd9e9 100%);
+    border: 1px solid;
+    box-shadow: 2px 2px 20px rgba(150, 149, 149, 0.452);
+    text-shadow:0px 2px 4px rgba(0, 0, 0, 0.2); 
+    padding:5px;
+    font-weight: 800;
+    border-radius: 10px;
+}
+
+.insta:hover{
+    padding:6px;
+}
+
+.tiktok{
+    color: #ffffffaf;
+    text-decoration: none;
+    background-image:linear-gradient(135deg, #b6bebebe 0%, #cfd9e9 100%);
+    border: 1px solid;
+    box-shadow: 2px 2px 20px rgba(150, 149, 149, 0.452);
+    text-shadow:0px 2px 4px rgba(0, 0, 0, 0.2); 
+    padding:5px;
+    font-weight: 800;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.tiktok:hover{
+    padding:6px;
+}
+
+
+.section-2
+
+.circle-animation{
+    width: 55%;
+    height: 160px;
+    
+    float: left;
+    margin-left: 5%;
+    margin-bottom: 300px;
+    transform: translateY(-280px);
+    
+}
+
+.circle-1{
+    width:20px;
+    height: 20px;
+    background-image:linear-gradient(135deg, #b6bebebe 0%, #cfd9e9 100%);
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 50%;
+    animation: circle-1 5s 0s alternate forwards infinite linear;
+}
+
+.circle-2{
+    width:20px;
+    height: 20px;
+    background-image:linear-gradient(135deg, #b6bebebe 0%, #cfd9e9 100%);
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 50%;
+    animation: circle-2 5s 0s alternate forwards infinite ease-in-out;
+}
+
+.circle-3{
+    width:20px;
+    height: 20px;
+    background-image:linear-gradient(135deg, #b6bebebe 0%, #cfd9e9 100%);
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 50%;
+    animation: circle-3 5s 0s alternate forwards infinite ease;
+}
+
+.circle-4{
+    width:20px;
+    height: 20px;
+    background-image:linear-gradient(135deg, #b6bebebe 0%, #cfd9e9 100%);
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 50%;
+    animation: circle-4 5s 0s alternate forwards infinite ease-in;
+}
+
+
+@keyframes circle-1{
+    0%{transform: translate(0,0);}
+    100%{transform: translate(970px,0);}
+}
+
+@keyframes circle-2{
+    0%{transform: translate(0,0);}
+    100%{transform: translate(970px,0);}
+}
+
+@keyframes circle-3{
+    0%{transform: translate(0,0);}
+    100%{transform: translate(970px,0);}
+}
+
+
+
+@keyframes circle-4{
+    0%{transform: translate(0,0);}
+    100%{transform: translate(970px,0);}
+}
+
+
+.help{
+    position: fixed;
+    right: 10px;
+    width: 100px;
+    bottom:20px ;
+}
+
+.thank-you{
+    float: left;
+    background-image:linear-gradient(135deg, #b6bebebe 0%, #cfd9e9 100%);
+    transform: translate(100px,-150px);
+    width: 90%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px rgba(201, 201, 201, 0.342);
+    text-shadow:0px 2px 4px rgba(0, 0, 0, 0.2); 
+
+    overflow-x: hidden;
+}
+
+.last-text{
+    color: #ffffffaf;
+    text-shadow:0px 2px 4px rgba(0, 0, 0, 0.2); 
+    animation: thankyou  6s  normal 0s infinite linear none;
+}
+@keyframes thankyou{
+    0%{transform: translate(-480px,0);}
+    100%{transform: translate(1700px,0);}
+    
+}
+
+
+
+
+
+
+
+@media only screen and ( max-width:768px){
+
+  .body{
+    overflow-x: hidden !important;
+  }
+
+    .section-1-div-1{
+        
+       width: 140px;
+       margin-top: 70px;
+       font-size: x-small;
+
+}
+
+.image-1{
+    width: 150px;
+    transform: translate(250px,-190px);
+}
+
+
+.metro-1{
+    width: 350px;
+    height: 250px;
+    transform: translateY(-100px);
+}
+.video{
+    width: 300px;
+}
+
+.div-4{
+    transform: translateY(-50px);
+    font-size: smaller;
+}
+
+.album{
+    transform: translate(245px,-820px);
+    height: 130px;
+    width: 120px;
+}
+
+@keyframes circle-1{
+    0%{transform: translate(200px,-160px);}
+    100%{transform: translate(200px,-310px);}
+
+}
+@keyframes circle-2{
+    0%{transform: translate(105px,-207px);}
+    100%{transform: translate(105px,-351px);}
+
+}
+@keyframes circle-3{
+    0%{transform: translate(156px,-255px);}
+    100%{transform: translate(156px,-395px);}
+
+}
+@keyframes circle-4{
+    0%{transform: translate(-130px,-240px);}
+    100%{transform: translate(210px,-240px);}
+
+}
+
+
+.album-details{
+    width: 300px;
+    height: 230px;
+    transform: translateY(-69px);
+}
+
+.thank-you{
+    width: 93%;
+    height: 55px;
+    transform: translate(10px,-40px);
+}
+
+.last-text{
+    font-size:larger ;
+    white-space: nowrap;
+}
+
+.help{
+    width: 50px;
+    transform: translateY(-100px);
+}
+}
