@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(135deg, #ffffffa9 0%, #a3a6aa57 40%,  #62527462 100%);
+    background-image: linear-gradient(135deg, #ffffffa9 0%, #a3a6aa57 40%,  #756d8062 100%);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -98,7 +98,8 @@ body{
 
 .image-1{
     width:400px;
-    transform: translateX(300px);
+    transform: translate(300px,-10px);
+    box-shadow: 5px 5px 40px rgba(128, 128, 128, 0.041);
 
    
 }
@@ -325,10 +326,9 @@ body{
 }
 
 .circle-1:hover,.circle-2:hover,.circle-3:hover,.circle-4:hover{
-    background-image: linear-gradient(45deg,rgba(106, 126, 100, 0.808), rgba(169, 189, 83, 0.589) );
+    width: 30px;
+    height: 30px;
 }
-
-
 @keyframes circle-1{
     0%{transform: translate(0,0);}
     100%{transform: translate(970px,0);}
