@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    background-image: linear-gradient(135deg, #cccccc86 0%, #9199a557 40%,  #62527462 100%);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -20,11 +20,13 @@ body{
     margin-top: 20px;
     color: #ffffffaf;
     font-weight: 700;
+    
     background-image:linear-gradient(135deg, #b6bebe63 0%, #cfd9e979 100%);
+    box-shadow: 5px 5px 30px rgba(128, 128, 128, 0.397);
     text-shadow:0px 2px 4px rgba(0, 0, 0, 0.2); ;
-    border: 1px solid rgba(185, 185, 185, 0.473);
+    border: 3px solid rgba(240, 240, 240, 0.192);
     backdrop-filter: blur(10px);
-    border-radius: 10px;
+    border-radius: 15px;
 
 
     
@@ -39,6 +41,7 @@ body{
     background-color: #5b7194;
     border: 10px solid rgba(255, 255, 255, 0.596);
     width: 2%;
+    box-shadow: 5px 5px 30px rgba(138, 138, 138, 0.664);
     border-radius: 3px;
     animation: animation-p 2s 0s alternate forwards infinite linear;
     
@@ -197,7 +200,7 @@ body{
     height: 400px;
     margin-left: 5%;
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: px;
     border-radius: 20px;
     overflow-y: auto;
     overflow-x: hidden;
@@ -281,7 +284,7 @@ body{
     height: 10px;
     float: left;
     margin-left: 5%;
-    transform: translateY(-280px);
+    transform: translateY(-220px);
     
 }
 
@@ -319,6 +322,10 @@ body{
     border: 1px solid rgb(196, 196, 196);
     border-radius: 50%;
     animation: circle-4 5s 0s alternate forwards infinite ease-in;
+}
+
+.circle-1:hover,.circle-2:hover,.circle-3:hover,.circle-4:hover{
+    background-image: linear-gradient(45deg,rgba(106, 126, 100, 0.808), rgba(169, 189, 83, 0.589) );
 }
 
 
@@ -382,7 +389,7 @@ body{
     width: 50%;
     height: 190px;
     margin-left: 5%;
-    transform: translateY(-100px);
+    transform: translateY(-70px);
     border-radius: 20px;
     padding: 20px;
     overflow-x: hidden;
@@ -412,8 +419,10 @@ body{
     border: 1px solid rgba(185, 185, 185, 0.473);
     backdrop-filter: blur(10px);
     border-radius: 10px;
-    padding-bottom: 1px;
+    padding-left:3px;
 }
+
+
 
 .about-{
     color: #ffffffaf;
@@ -467,15 +476,15 @@ body{
 
     .section-1-div-1{
         
-       width: 140px;
+       width: 160px;
        margin-top: 10px;
-       font-size: x-small;
+       font-size:small ;
 
 }
 
 .image-1{
-    width: 150px;
-    transform: translate(250px,-190px);
+    width: 140px;
+    transform: translate(245px,-190px);
 }
 
 
@@ -494,29 +503,29 @@ body{
 }
 
 .album{
-    transform: translate(245px,-820px);
+    transform: translate(250px,-820px);
     height: 130px;
     width: 120px;
 }
 
 @keyframes circle-1{
-    0%{transform: translate(200px,-160px);}
-    100%{transform: translate(200px,-310px);}
+    0%{transform: translate(200px,-240px);}
+    100%{transform: translate(200px,-370px);}
 
 }
 @keyframes circle-2{
-    0%{transform: translate(105px,-207px);}
-    100%{transform: translate(105px,-351px);}
+    0%{transform: translate(105px,-280px);}
+    100%{transform: translate(105px,-410px);}
 
 }
 @keyframes circle-3{
-    0%{transform: translate(156px,-255px);}
-    100%{transform: translate(156px,-395px);}
+    0%{transform: translate(156px,-320px);}
+    100%{transform: translate(156px,-405px);}
 
 }
 @keyframes circle-4{
-    0%{transform: translate(-130px,-240px);}
-    100%{transform: translate(210px,-240px);}
+    0%{transform: translate(-130px,-300px);}
+    100%{transform: translate(210px,-300px);}
 
 }
 
@@ -530,7 +539,8 @@ body{
 .thank-you{
     width: 93%;
     height: 55px;
-    transform: translate(10px,-40px);
+    transform: translate(12px,-50px);
+    backdrop-filter: blur(10px);
 }
 
 .last-text{
@@ -558,9 +568,11 @@ body{
 .about-my-website{
     width: 305px;
     height: 295px;
-    transform: translateY(-350px);
+    transform: translateY(-250px);
     backdrop-filter: blur(10px);
 }
+
+
 
 }
 
@@ -600,6 +612,10 @@ body{
 
 @media only screen and (min-width:804px) and (max-width:1600px){
 
+.welcome{
+    width: 30%;
+}
+
 .metro-1{
     transform: translateX(-px);
     width: 30%;
@@ -630,6 +646,10 @@ body{
 
 .album{
     transform: translateX(95px);
+}
+
+.thank-you{
+   transform: translate(70px,-30px);
 }
     
 }
