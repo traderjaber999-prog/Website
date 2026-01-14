@@ -1,113 +1,90 @@
 body{
-    background-image: linear-gradient(135deg, #ffffffa9 0%, #a3a6aa57 40%,  #756d8062 100%);
-    background-size: cover;
-    background-repeat: no-repeat;
+    margin-left: 50px !important;
+    background-size:cover;
     background-attachment: fixed;
-    background-color:#f0f0f0;
-    margin: 0;
-    height: 0 !important;
-    
-    font-family: "Poppins", sans-serif;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(135deg, #ffffffa9 0%, #a3a6aa57 40%,  #756d8062 100%);
     overflow-x: hidden;
+    font-family: "Poppins", sans-serif !important;
 }
 
 
-
-
-.welcome{
-    width: 20%;
-    margin-left: 5%;
+.welcome-text{
     margin-top: 20px;
-    color: #ffffffaf;
+    width: 20%;
+    margin-top: 20px;
     font-weight: 700;
-    
     background-image:linear-gradient(135deg, #b6bebe63 0%, #cfd9e979 100%);
     box-shadow: 5px 5px 30px rgba(128, 128, 128, 0.397);
     text-shadow:0px 2px 4px rgba(0, 0, 0, 0.2); ;
     border: 3px solid rgba(240, 240, 240, 0.192);
     backdrop-filter: blur(10px);
     border-radius: 15px;
+    text-align: center;
+    white-space: nowrap;
 
 
     
 }
-.welcome-1{
-    margin-left: 10px;
+   
+
+
+.hello-text{
+     color: rgba(255, 255, 255, 0.753);
+     text-shadow: 2px 2px 5px rgba(194, 194, 194, 0.548);
+     font-weight: 700;
+     
 }
 
-
-.animation{
+.world-class-box{
+    background-image:linear-gradient(135deg, #b6bebe63 0%, #cecece79 100%);
+    box-shadow: 5px 5px 30px rgba(128, 128, 128, 0.397);
+    text-shadow:0px 2px 4px rgba(0, 0, 0, 0.2); ;
+    border: 1px solid rgba(143, 143, 143, 0.164);
+    backdrop-filter: blur(10px);
+    border-radius: 25px;
+    margin-top: 8%;
+    height:190px;
+    overflow-y: auto;
+   
     
-    background-color: #5b7194;
-    border: 10px solid rgba(255, 255, 255, 0.596);
-    width: 2%;
-    box-shadow: 5px 5px 30px rgba(138, 138, 138, 0.664);
-    border-radius: 3px;
-    animation: animation-p 2s 0s alternate forwards infinite linear;
+}
+
+.world-{
+    font-weight: 700;
+    color: #7070709f;
+    padding-top: 2px;
+    margin-top: 20px;
+    padding-left: 25px;
+    overflow-x: hidden;
+    
     
 }
-@keyframes animation-p{
-    0%{transform: translate(0,0);}
-    100%{transform: translate(270px,0);}
-}
 
-
-
-.world-class{
-    color: #2f4d7a;
-
-}
-
-
-
-.section-1-div-1{
+.world-:hover,.m-p-h2:hover,.about-my-self-h2:hover{
+    color: #ffffffaf;
+    font-weight: 700;
+    background-image:linear-gradient(135deg, #b6bebebe 0%, #cfd9e9 100%);
+    text-shadow:0px 2px 4px rgba(0, 0, 0, 0.2); ;
+    border: 1px solid rgba(185, 185, 185, 0.473);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding-bottom: 1px;
     width: 40%;
-    
-    float: left;
-    margin-left: 5%;
-    margin-top: 5%;
-    
-    
-
-    
-   background-color: rgba(211, 211, 211, 0.137);
-   backdrop-filter: blur(30px);
-   border: 3px solid rgba(255, 255, 255, 0.158);
-   padding:20px;
-   border-radius: 10px;
-   box-shadow: 5px 5px 10px gray;
-    
+    display: inline-block;
 }
+  
+
 
 
 
 .insahallah-p{
-    color: rgb(109, 106, 106);
-    line-height: 1.5;
-
-
-
+    color: #756d80b4;
+    padding-left: 25px;
 }
-.section-1-div-2-image{
-    margin-right: 20%;
-}
-
-
-
-
-
-.image-1{
-    width:400px;
-    transform: translate(300px,-10px);
-    box-shadow: 5px 5px 40px rgba(128, 128, 128, 0.041);
-
-   
-}
-
-
-
 
 .facebook{
+    margin-left: 25px;
     text-decoration: none;
     color: #ffffffaf;
     font-weight: 700;
@@ -117,467 +94,227 @@ body{
     backdrop-filter: blur(10px);
     border-radius: 10px;
     padding: 5px;
+    display: inline-block;
+    transition: 0.3s;
 
 }
 
 .facebook:hover{
-    padding: 6px;
+    transform: scale(1.05);
+    color: white;
+  
 }
 
 
 
-.metro-1{
-    background-color: rgba(211, 211, 211, 0.315);
-    width: 24%;
-    height: 300px;
-    margin-left: 5%;
-    border-radius: 20px;
-    backdrop-filter: blur(30px);
-    box-shadow: 5px 5px 30px gray;
 
-    border-left: 10px solid ;
-    border-image:linear-gradient(45deg,rgba(73, 73, 73, 0.425),rgb(255, 255, 255));
-    border-image-slice:1;
-    float: left;
+
+.sundarban-image{
+    text-align: right;
+}
+
+.image-fluid{
+    width: 70%;
+    padding: 7%;
     
 }
 
-.video{
-    border: 1px solid rgba(255, 255, 255, 0.24);
-    border-radius: 20px;
-    margin-left: 8%;
-    margin-top: 6%;
-    box-shadow: 5px 5px 5px gray;
-    
-
+.metro-video-backcover{
+    width: 70%;
+    box-shadow: 5px 5px 5px rgba(201, 201, 201, 0.534);
+    background-image: linear-gradient(135deg, #b6bebe63 0%, #cfd9e9a1 100%);
+    border-radius: 5px;
+    border-left: 20px solid ;
+    border-image: linear-gradient(135deg, #b6b6b6 0%, #00000080 100%);
+    border-image-slice: 1;
 }
 
 
-.div-4{
-    margin-left: 5%;
-    width:50%;
-    float: left;
-    line-height: 2;
-    height: 260px;
+.metro-video{
+    width: 80%;
+    border-radius: 30px !important;
     padding: 20px;
-    overflow-x: hidden;
-    overflow-y: auto;
-
-    background-color: rgba(211, 211, 211, 0.137);
-    border-radius: 20px;
-    box-shadow: 5px 5px 30px rgba(128, 128, 128, 0.336);
+    margin-left: 10%;
+    box-shadow: 5px 5px 10px rgba(201, 201, 201, 0.164);
 }
 
-
-.metro-experience{
-    color: #465f85;
-    
-}
-
-.metro-5-sentence li{
-    color: #818181;
-    font-weight: 500;
-}
-
-.metro-5-sentence li:hover{
-    color: #ffffffaf;
-    font-weight: 700;
-    background-image:linear-gradient(135deg, #b6bebebe 0%, #cfd9e9 100%);
-    text-shadow:0px 2px 4px rgba(0, 0, 0, 0.2); 
-    border: 1px solid rgba(185, 185, 185, 0.473);
+.metro-tour-explain{
+     background-image:linear-gradient(135deg, #b6bebe63 0%, #cecece79 100%);
+    box-shadow: 5px 5px 30px rgba(128, 128, 128, 0.397);
+    text-shadow:0px 2px 4px rgba(0, 0, 0, 0.2); ;
+    border: 1px solid rgba(143, 143, 143, 0.164);
     backdrop-filter: blur(10px);
-    border-radius: 10px;
-    padding-bottom: 1px;
-}
-
-
-.my-album{
-    text-align: center;
-}
-
-.album{
-    width: 25%;
-    float: left;
-    height: 400px;
-    margin-left: 5%;
-    margin-top: 100px;
-    margin-bottom: px;
-    border-radius: 20px;
+    border-radius: 25px;
+    height:190px;
     overflow-y: auto;
-    overflow-x: hidden;
-
-
-    background-image: linear-gradient(135deg,rgba(206, 206, 206, 0.233),rgba(255, 255, 255, 0.171));
-    backdrop-filter: blur(30px);
-    box-shadow: 5px 5px 40px rgba(128, 128, 128, 0.89);
-    border: 3px  solid rgb(201, 201, 201);
-    
-    
-
-}
-
-.image-for-overflow{
-    
-    width: 100%;
+   
 }
 
 
-.abot-my-self{
-    color:#5b7194
+.metro-tour-explain{
+    min-height: 250px;
+    margin-right: 7%;
+    
 }
 
-
-.aboute-my-self-p{
-    color: rgba(75, 74, 74, 0.877);
+.m-p-h2{
+    color: #6d7470b4;
+    font-weight: 700;
+    margin-left: 10px;
+    padding-top: 2px;
+    margin-top: 20px;
+    
+}
+.m-p-box{
+    color: #756d80b4;
+    margin-left: 5px;
     line-height: 1.5;
+    
 }
 
-.album-details{
-    float: left;
-    width: 50%;
-    height: 150px;
-    margin-left: 5%;
-    margin-top: 100px;
-    background-image: linear-gradient(45deg,rgba(202, 202, 202, 0.26),rgba(179, 179, 179, 0.158));
-    box-shadow: 5px 5px 20px rgba(128, 128, 128, 0.226);
-    backdrop-filter: blur(20px);
-    border-radius: 20px;
-    padding: 20px;
+.about-my-self{
+     background-image:linear-gradient(135deg, #b6bebe63 0%, #cecece79 100%);
+    box-shadow: 5px 5px 30px rgba(128, 128, 128, 0.397);
+    text-shadow:0px 2px 4px rgba(0, 0, 0, 0.2); ;
+    border: 1px solid rgba(143, 143, 143, 0.164);
+    backdrop-filter: blur(10px);
+    border-radius: 25px;
+    overflow-y: auto;
+    margin-top: 50px;
+    min-height: 230px;
+    max-height: 250px;
+   
 }
-
-
-.insta{
-    color: #ffffffaf;
-    text-decoration: none;
-    background-image:linear-gradient(135deg, #b6bebebe 0%, #cfd9e9 100%);
-    border: 1px solid;
-    box-shadow: 2px 2px 20px rgba(150, 149, 149, 0.452);
-    text-shadow:0px 2px 4px rgba(0, 0, 0, 0.2); 
-    padding:5px;
-    font-weight: 800;
-    border-radius: 10px;
+.about-my-self-h2{
+    color: #6d7470b4;
+    font-weight: 700;
+    margin-left: 20px;
+    padding-top: 2px;
+    margin-top: 20px;
 }
-
-.insta:hover{
-    padding:6px;
+.about-my-self-pg{
+    color: #756d80b4;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-right: 20px;
+    
 }
 
 .tiktok{
-    color: #ffffffaf;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 25px;
     text-decoration: none;
+    color: #ffffffaf;
+    font-weight: 700;
     background-image:linear-gradient(135deg, #b6bebebe 0%, #cfd9e9 100%);
-    border: 1px solid;
-    box-shadow: 2px 2px 20px rgba(150, 149, 149, 0.452);
-    text-shadow:0px 2px 4px rgba(0, 0, 0, 0.2); 
-    padding:5px;
-    font-weight: 800;
+    text-shadow:0px 2px 4px rgba(0, 0, 0, 0.2); ;
+    border: 1px solid rgba(185, 185, 185, 0.473);
+    backdrop-filter: blur(10px);
     border-radius: 10px;
-    margin-left: 10px;
-    margin-top: 10px;
+    padding: 5px;
+    display: inline-block;
+    transition: 0.3s;
+
 }
 
 .tiktok:hover{
-    padding:6px;
+    transform: scale(1.05);
+    color: white;
+  
 }
 
-
-.section-2
-
-.circle-animation{
-    width: 55%;
-    height: 10px;
-    float: left;
-    margin-left: 5%;
-    transform: translateY(-220px);
-    
-}
-
-.circle-1{
-    width:20px;
-    height: 20px;
-    background-image:linear-gradient(135deg, #b6bebebe 0%, #cfd9e9 100%);
-    border: 1px solid rgb(196, 196, 196);
-    border-radius: 50%;
-    animation: circle-1 5s 0s alternate forwards infinite linear;
-}
-
-.circle-2{
-    width:20px;
-    height: 20px;
-    background-image:linear-gradient(135deg, #b6bebebe 0%, #cfd9e9 100%);
-    border: 1px solid rgb(196, 196, 196);
-    border-radius: 50%;
-    animation: circle-2 5s 0s alternate forwards infinite ease-in-out;
-}
-
-.circle-3{
-    width:20px;
-    height: 20px;
-    background-image:linear-gradient(135deg, #b6bebebe 0%, #cfd9e9 100%);
-    border: 1px solid rgb(196, 196, 196);
-    border-radius: 50%;
-    animation: circle-3 5s 0s alternate forwards infinite ease;
-}
-
-.circle-4{
-    width:20px;
-    height: 20px;
-    background-image:linear-gradient(135deg, #b6bebebe 0%, #cfd9e9 100%);
-    border: 1px solid rgb(196, 196, 196);
-    border-radius: 50%;
-    animation: circle-4 5s 0s alternate forwards infinite ease-in;
-}
-
-.circle-1:hover,.circle-2:hover,.circle-3:hover,.circle-4:hover{
-    width: 30px;
-    height: 30px;
-}
-@keyframes circle-1{
-    0%{transform: translate(0,0);}
-    100%{transform: translate(970px,0);}
-}
-
-@keyframes circle-2{
-    0%{transform: translate(0,0);}
-    100%{transform: translate(970px,0);}
-}
-
-@keyframes circle-3{
-    0%{transform: translate(0,0);}
-    100%{transform: translate(970px,0);}
-}
-
-
-
-@keyframes circle-4{
-    0%{transform: translate(0,0);}
-    100%{transform: translate(970px,0);}
-}
-
-
-.help{
-    position: fixed;
-    right: 10px;
-    width: 100px;
-    bottom:90px ;
-}
-
-.thank-you{
-    float: left;
-    background-image:linear-gradient(135deg, #b6bebebe 0%, #cfd9e9 100%);
-    transform: translate(100px,-30px);
-    width: 90%;
-    border-radius: 20px;
-    box-shadow: 5px 5px 20px rgba(201, 201, 201, 0.342);
-    text-shadow:0px 2px 4px rgba(0, 0, 0, 0.2); 
-    overflow-x: hidden;
-}
-
-
-@keyframes thankyou{
-    0%{transform: translate(-480px,0);}
-    100%{transform: translate(1700px,0);}
-    
-}
-
-.last-text{
-    color: #ffffffaf;
-    text-shadow:0px 2px 4px rgba(0, 0, 0, 0.2); 
-    animation: thankyou  6s  normal 0s infinite linear none;
-}
-
-
-.about-my-website{
-    float: left;
-    width: 50%;
-    height: 190px;
-    margin-left: 5%;
-    transform: translateY(-70px);
-    border-radius: 20px;
-    padding: 20px;
-    overflow-x: hidden;
+.about-my-self-p{
+    margin-top: 50px;
+     background-image:linear-gradient(135deg, #b6bebe63 0%, #cecece79 100%);
+    box-shadow: 5px 5px 30px rgba(128, 128, 128, 0.397);
+    text-shadow:0px 2px 4px rgba(0, 0, 0, 0.2); ;
+    border: 1px solid rgba(143, 143, 143, 0.164);
+    backdrop-filter: blur(10px);
+    border-radius: 25px;
+    max-height:250px;
     overflow-y: auto;
+   
+}
+
+.p-aboute-website{
+    color: #756d80b4;
+    margin-left: 20px;
     line-height: 1.5;
-    background-image: linear-gradient(135deg,rgba(201, 201, 201, 0.295),rgba(212, 212, 212, 0.199));
-    backdrop-filter: blur(40px);
-    box-shadow: 5px 5px 30px rgba(128, 128, 128, 0.205);
-
+    margin-right: 20px;
     
 }
 
-::-webkit-scrollbar{
-    display: none;
+
+.album-img{
+    width: 100%;
 }
-
-
-.about-my-website li{
-    color: #7a7a7a;
-    padding-bottom: 1px;
-}
-.about-my-website li:hover,h3:hover{
-    color: #ffffffaf;
-    font-weight: 700;
-    background-image:linear-gradient(135deg, #b6bebebe 0%, #cfd9e9 100%);
-    text-shadow:0px 2px 4px rgba(0, 0, 0, 0.2); 
-    border: 1px solid rgba(185, 185, 185, 0.473);
-    backdrop-filter: blur(10px);
-    border-radius: 10px;
-    padding-left:3px;
-}
-
-
-
-.about-{
-    color: #ffffffaf;
-    font-weight: 700;
-    background-image:linear-gradient(135deg, #b6bebebe 0%, #cfd9e9 100%);
-    text-shadow:0px 2px 4px rgba(0, 0, 0, 0.2); 
-    border: 1px solid rgba(185, 185, 185, 0.473);
-    backdrop-filter: blur(10px);
-    border-radius: 10px;
-    padding-bottom: 1px;
-    text-align: center;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and ( max-width:768px){
-
-  body{
-    overflow-x: hidden !important;
-  }
-
-  .welcome{
-    width: 90%;
-    
-  }
-
-    .section-1-div-1{
-        
-       width: 160px;
-       margin-top: 10px;
-       font-size:small ;
-
-}
-
-.image-1{
-    width: 140px;
-    transform: translate(245px,-190px);
-}
-
-
-.metro-1{
-    width: 350px;
-    height: 250px;
-    transform: translateY(-100px);
-}
-.video{
-    width: 300px;
-}
-
-.div-4{
-    transform: translateY(-50px);
-    font-size: smaller;
-}
-
 .album{
-    transform: translate(250px,-820px);
-    height: 130px;
-    width: 120px;
+    border: 5px solid rgba(185, 185, 185, 0.473);
+    border-radius: 10px;
+    margin-top: 18%;
+    margin-left: 23%;
+    width: 70%;
+      overflow-x: hidden;
+    overflow-y: auto;
+    height: 400px;
+    max-height: 450px;
+    box-shadow: 5px 5px 30px rgba(128, 128, 128, 0.397);
 }
 
-@keyframes circle-1{
-    0%{transform: translate(200px,-240px);}
-    100%{transform: translate(200px,-370px);}
-
-}
-@keyframes circle-2{
-    0%{transform: translate(105px,-280px);}
-    100%{transform: translate(105px,-410px);}
-
-}
-@keyframes circle-3{
-    0%{transform: translate(156px,-320px);}
-    100%{transform: translate(156px,-405px);}
-
-}
-@keyframes circle-4{
-    0%{transform: translate(-130px,-300px);}
-    100%{transform: translate(210px,-300px);}
-
+.by-box{
+    
+    background-image: linear-gradient(135deg,rgb(206, 206, 206),rgba(189, 189, 189, 0.521));
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    height: 50px;
+    box-shadow: 5px 5px 30px rgba(182, 182, 182, 0.842);
+    
+    overflow: hidden;
 }
 
 
-.album-details{
-    width: 300px;
-    height: 230px;
-    transform: translateY(-69px);
-}
 
-.thank-you{
-    width: 93%;
-    height: 55px;
-    transform: translate(12px,-50px);
+
+
+.insahallah-p:hover,.m-p:hover,.p-aboute-website:hover,.about-my-self-pg:hover{
+        color: #ffffffaf;
+    font-weight: 700;
+    background-image:linear-gradient(135deg, #b6bebebe 0%, #cfd9e9 100%);
+    text-shadow:0px 2px 4px rgba(0, 0, 0, 0.2); 
+    border: 1px solid rgba(185, 185, 185, 0.473);
     backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding-bottom: 1px;
+
 }
 
-.last-text{
-    font-size:larger ;
+
+.by-text{
+    
+    color: #6d7470b4;
+    font-weight: 700;
+    padding-top: 10px;
+    display: inline-block;
+    animation: by-text-animation 7s infinite linear;
     white-space: nowrap;
-}
-
-.help{
-    width: 50px;
-    transform: translateY(-100px);
-}
-
-
-
-.last-text{
-     animation:ok 6s linear infinite !important;
-}
-@keyframes ok  {
-     0%{transform: translate(-370px,0);}
-    100%{transform: translate(370px,0);}
     
-
     
 }
-.about-my-website{
-    width: 305px;
-    height: 295px;
-    transform: translateY(-250px);
-    backdrop-filter: blur(10px);
+@keyframes by-text-animation {
+    0% {color: #6d7470b4;}
+    50% {color: #22884caf;}
+    100% {color: #6d7470b4;}
+}
+
+@keyframes by-text-animation {
+    0% {transform: translateX(-600px);}
+    100% {transform: translateX(1900px);}
 }
 
 
 
-}
 
 
 
@@ -587,72 +324,66 @@ body{
 
 
 
+@media only screen  and (max-width: 800px) {
+    body {
+        margin: 0 
+        !important;
+        padding: 0 !important;
+    }
+    .welcome-text{
+        width: 40%;
+        
+    }
+    .world-class-box{
+        min-height: 280px;
+        border-radius: 5px;
+    }
 
+    .image-fluid{
+        margin-top: 23%;
+        width: 100%;
+        padding: 0%;
+        
+    }
 
+    .metro-video-backcover{
+        border-left: 10px solid ;
+        margin-top: 35%;
+        width: 100%;
+    }
+    .metro-video{
+        width: 100%;
+        margin-left: 5%;
+    }
+    .metro-tour-explain{
+        min-height: 280px;
+        margin-right: 0%;
+        border-radius: 5px;
+        margin-top: 10%;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (min-width:804px) and (max-width:1600px){
-
-.welcome{
-    width: 30%;
-}
-
-.metro-1{
-    transform: translateX(-px);
-    width: 30%;
     
-}
-
-@keyframes circle-1{
-    0%{transform: translate(0,0);}
-    100%{transform: translate(750px,0);}
-}
-
-@keyframes circle-2{
-    0%{transform: translate(0,0);}
-    100%{transform: translate(750px,0);}
-}
-
-@keyframes circle-3{
-    0%{transform: translate(0,0);}
-    100%{transform: translate(750px,0);}
-}
-
-
-
-@keyframes circle-4{
-    0%{transform: translate(0,0);}
-    100%{transform: translate(750px,0);}
-}
-
-.album{
-    transform: translateX(95px);
-}
-
-.thank-you{
-   transform: translate(70px,-30px);
-}
+    /* কলামগুলোকে পাশাপাশি থেকে নিচে নিচে নিয়ে আসবে */
+   .row-col-7 .col-7,.row-col-7 .col-5 {
+        width: 100% !important; /* ফুল স্ক্রিন চওড়া করার জন্য */
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+        
+    }
+  .album{
+    margin-left: 5%;
+    width: 90%;
+    height: 400px;
+    max-height: 350px;
+  }
+  @keyframes by-text-animation {
+    0% {transform: translateX(-550px);}
+    100% {transform: translateX(800px);}
     
+  }
+  
 }
+
+
+
+
