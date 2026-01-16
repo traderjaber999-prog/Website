@@ -70,7 +70,7 @@ body{
     backdrop-filter: blur(10px);
     border-radius: 10px;
     padding-bottom: 1px;
-    width: 40%;
+    width: 90%;
     display: inline-block;
 }
   
@@ -288,6 +288,45 @@ body{
     border-radius: 10px;
     padding-bottom: 1px;
 
+}
+.saint-martain-image{
+    position:relative;
+    width: 100%;
+     
+}
+
+.saint-martin-img{
+    width: 95%  ;
+    margin-top: 3%;
+    box-shadow: 5px 5px 30px rgba(128, 128, 128, 0.397);
+    border-radius: 15px;
+    margin-left: 2%;
+    
+    
+}
+.sain-martain{
+    position: absolute;
+    width: 90%;
+    left: 3%;
+    top: 20%;
+    display: none;
+}
+
+.sain-martain-h2{
+     position: absolute;
+    width: 90%;
+    left: 3%;
+    top: 11%;
+    display: none;
+}
+.saint-martain-image:hover .sain-martain,.saint-martain-image:hover .sain-martain-h2{
+    display: block;
+    background-color: #00000080;
+    color: white;
+    padding: 10px;  
+    font-weight: 700;
+   
+    
 }
 
 
